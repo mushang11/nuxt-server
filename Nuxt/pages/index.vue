@@ -1,7 +1,7 @@
 <template>
   <section class="container">
     <div>
-      <logo/>
+      <Download/>
       <h1 class="title">
         Nuxt
       </h1>
@@ -24,10 +24,11 @@
 
 <script>
 import Logo from '../components/Logo.vue'
-
+import Download from '../components/download'
 export default {
   components: {
-    Logo
+    Logo,
+    Download
   }
 }
 </script>
